@@ -89,7 +89,7 @@ function getRandomColor(): string {
 </script>
 
 <template>
-    <div style="height: 400px">
+    <div style="height: 400px; flex: 1;" >
         <h2>Latency Over Time ({{ starships.length }} Starships)</h2>
         <canvas ref="canvasRef"></canvas>
     </div>
